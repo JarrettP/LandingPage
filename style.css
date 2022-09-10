@@ -43,15 +43,16 @@ body {
     text-decoration: none;
 }
 
-.call_to_action, button {
-    background-color: #3882f6;
-}
-
 .featured_authors .header {
     background-color: #ffffff;
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
+}
+
+.featured_authors .cards {
+    display: flex;
+    text-align: center
 }
 
 .quote {
@@ -63,4 +64,8 @@ body {
     font-weight: lighter;
     font-style: italic;
     color: #1f2937;
+}
+
+.call_to_action, button {
+    background-color: #3882f6;
 }
