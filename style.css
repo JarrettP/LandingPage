@@ -1,8 +1,16 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
-.header, .hero, .footer {
+.section {
+    display: flex;
+    padding: 0 200px;
+    justify-content: space-between;
+}
+
+.header.section, .hero.section, .footer.section {
     background-color: #1f2937;
 }
 
@@ -22,6 +30,12 @@ body {
 
 .header p {
     font-size: 24px;
+}
+
+.header.section ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
 }
 
 .call_to_action, button {
