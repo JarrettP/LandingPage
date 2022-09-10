@@ -28,7 +28,7 @@ body {
     color: #f9faf8;
 }
 
-.header p {
+.header.section p {
     font-size: 24px;
 }
 
@@ -36,6 +36,11 @@ body {
     list-style-type: none;
     display: flex;
     gap: 30px;
+}
+
+.header.section a {
+    color: #f9faf8;
+    text-decoration: none;
 }
 
 .call_to_action, button {
