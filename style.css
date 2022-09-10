@@ -58,7 +58,6 @@ body {
 .quote.section {
     background-color: #e5e7eb;
     display: flex;
-    flex-direction: column;
 }
 
 .quote.section .body {
@@ -74,6 +73,19 @@ body {
     font-weight: bold;
 }
 
-.call_to_action, button {
+.call_to_action.section, button {
     background-color: #3882f6;
+}
+
+.call_to_action.section .header {
+    font-size: 24px;
+}
+
+.call_to_action.section .body {
+    font-weight: 300;
+}
+
+.footer.section {
+    color: #f9faf8;
+    font-weight: 300;
 }
