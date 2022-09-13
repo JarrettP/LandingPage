@@ -100,12 +100,19 @@ body {
     background-color: #3882f6;
 }
 
+.call_to_action.section {
+    padding: 20px 200px;
+}
+
 .call_to_action.section .header {
     font-size: 24px;
+    margin: 0;
 }
 
 .call_to_action.section .body {
     font-weight: 300;
+    margin: 0;
+
 }
 
 .footer.section {
