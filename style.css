@@ -6,7 +6,7 @@ body {
 
 .section {
     display: flex;
-    padding: 0 200px;
+    padding: 20px 200px;
     justify-content: space-between;
 }
 
@@ -17,11 +17,17 @@ body {
 .hero.section {
     font-size: 18px;
     color: #e5e7eb;
+    padding-bottom: 20px;
 }
 
 .hero.section .header {
     font-size: 48px;
     font-weight: bolder;
+}
+
+.hero.section img {
+    height: 300px;
+    width: auto;
 }
 
 .header, .body, button {
@@ -43,6 +49,13 @@ body {
     text-decoration: none;
 }
 
+.featured_authors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 200px;
+}
+
 .featured_authors .header {
     background-color: #ffffff;
     color: #1f2937;
@@ -53,6 +66,16 @@ body {
 .featured_authors .cards {
     display: flex;
     text-align: center
+}
+
+.featured_authors img {
+    height: 200px;
+    width: auto;
+    margin: 0 20px;
+    border-radius: 20px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-width: 4px;
 }
 
 .quote.section {
