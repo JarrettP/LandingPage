@@ -109,6 +109,7 @@ body {
 }
 
 .footer.section {
+    justify-content: center;
     color: #f9faf8;
     font-weight: 300;
 }
