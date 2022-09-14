@@ -81,6 +81,7 @@ body {
 .quote.section {
     background-color: #e5e7eb;
     display: flex;
+    flex-direction: column;
 }
 
 .quote.section .body {
@@ -88,12 +89,14 @@ body {
     font-weight: 300;
     font-style: italic;
     color: #1f2937;
+    margin-bottom: 0;
 }
 
 .quote.section .author {
     margin-left: auto;
     font-size: 24px;
     font-weight: bold;
+    margin-top: 0;
 }
 
 .call_to_action.section, button {
