@@ -17,16 +17,22 @@ body {
 .hero.section {
     font-size: 18px;
     color: #e5e7eb;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .hero.section .header {
     font-size: 48px;
     font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.hero.section p {
+    font-weight: 200;
+    margin-top: 0;
 }
 
 .hero.section img {
-    height: 300px;
+    height: 200px;
     width: auto;
 }
 
@@ -82,11 +88,12 @@ body {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
+    padding: 40px 300px;
 }
 
 .quote.section .body {
     font-size: 36px;
-    font-weight: 300;
+    font-weight: 200;
     font-style: italic;
     color: #1f2937;
     margin-bottom: 0;
@@ -96,15 +103,18 @@ body {
     margin-left: auto;
     font-size: 24px;
     font-weight: bold;
-    margin-top: 0;
-}
-
-.call_to_action.section, button {
-    background-color: #3882f6;
+    margin-top: 20px;
 }
 
 .call_to_action.section {
-    padding: 20px 200px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.call_to_action.section {
+    margin: 80px 200px;
+    border-radius: 5px;
+    padding: 50px 100px;
 }
 
 .call_to_action.section .header {
@@ -115,11 +125,22 @@ body {
 .call_to_action.section .body {
     font-weight: 300;
     margin: 0;
-
 }
 
 .footer.section {
     justify-content: center;
     color: #f9faf8;
     font-weight: 300;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #3882f6;
+    padding: 5px 25px;
+}
+
+.call_to_action.section button {
+    border-color: #f9faf8;
 }
